@@ -1,0 +1,4 @@
+Bank Of America,2024-11-12,10000.0
+Wells Fargo,2024-11-13,2000.0
+Chase,2024-11-14,30000.0
+Money Owed To Professor,2024-11-29,1000.0

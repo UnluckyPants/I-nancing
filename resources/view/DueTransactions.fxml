@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.DueTransactionsController">
+    <VBox layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="401.0" style="-fx-border-color: black;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+        <children>
+            <HBox prefHeight="22.0" prefWidth="379.0">
+                <children>
+                    <ToolBar maxWidth="Infinity" prefHeight="40.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+                        <items>
+                            <Label text="Scheduled Transactions Due Today!" />
+                        </items></ToolBar>
+                    <ToolBar prefHeight="35.0" prefWidth="37.0">
+                        <items>
+                            <Button alignment="CENTER" mnemonicParsing="false" onAction="#closeDueTransactions" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: red;" text="X" textAlignment="CENTER" textFill="WHITE">
+                                <font>
+                                    <Font name="Times New Roman" size="12.0" />
+                                </font>
+                            </Button>
+                        </items>
+                    </ToolBar>
+                </children>
+            </HBox>
+            <TableView fx:id="table" prefHeight="355.0" prefWidth="379.0">
+                <columns>
+                    <TableColumn fx:id="nameColumn" prefWidth="134.0" text="Name" />
+                    <TableColumn fx:id="accountColumn" prefWidth="103.0" text="Account" />
+                    <TableColumn fx:id="typeColumn" prefWidth="77.0" text="Type" />
+                    <TableColumn fx:id="paymentColumn" prefWidth="64.0" text="Payment" />
+                </columns>
+            </TableView>
+        </children>
+    </VBox>
+</AnchorPane>

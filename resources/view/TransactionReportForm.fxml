@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.TransactionReportFormController">
+   <children>
+      <VBox layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="401.0" style="-fx-border-color: black;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <HBox prefHeight="22.0" prefWidth="379.0">
+               <children>
+                  <ToolBar maxWidth="Infinity" prefHeight="40.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+                     <items>
+                        <Label text="Transaction Details" />
+                     </items></ToolBar>
+                  <ToolBar prefHeight="35.0" prefWidth="37.0">
+                     <items>
+                        <Button alignment="CENTER" mnemonicParsing="false" onAction="#returnToTable" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: red;" text="X" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Times New Roman" size="12.0" />
+                           </font>
+                        </Button>
+                     </items>
+                  </ToolBar>
+               </children>
+            </HBox>
+            <Pane prefHeight="343.0" prefWidth="378.0">
+               <children>
+                  <Label layoutX="9.0" layoutY="8.0" text="Account">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="225.0" layoutY="8.0" text="Type">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font></Label>
+                  <Label layoutX="8.0" layoutY="158.0" text="Description">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="9.0" layoutY="90.0" text="Date">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="225.0" layoutY="90.0" text="Amount">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="description" editable="false" layoutX="8.0" layoutY="186.0" prefHeight="150.0" prefWidth="362.0">
+                     <font>
+                        <Font name="System Italic" size="14.0" />
+                     </font></TextField>
+                  <TextField fx:id="accountName" editable="false" layoutX="9.0" layoutY="35.0" prefHeight="55.0" prefWidth="206.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font></TextField>
+                  <TextField fx:id="type" editable="false" layoutX="225.0" layoutY="35.0" prefHeight="55.0" prefWidth="145.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font></TextField>
+                  <TextField fx:id="date" editable="false" layoutX="9.0" layoutY="117.0" prefHeight="42.0" prefWidth="206.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font></TextField>
+                  <TextField fx:id="amount" editable="false" layoutX="225.0" layoutY="117.0" prefHeight="42.0" prefWidth="145.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font></TextField>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox fx:id="homePage" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="200.0" style="-fx-background-color: grey;">
+         <children>
+            <ScrollPane fitToWidth="true" layoutX="8.0" layoutY="5.0" prefHeight="388.0" prefWidth="184.0" style="-fx-background-color: gray; -fx-border-color: white;">
+               <content>
+                  <VBox alignment="TOP_CENTER" prefHeight="385.0" prefWidth="167.0" spacing="5.0" style="-fx-padding: 3; -fx-background-color: gray;">
+                     <children>
+                        <Button minHeight="35.0" mnemonicParsing="false" onAction="#returnToHomePage" prefHeight="35.0" prefWidth="180.0" text="Home Page" />
+                        <Button minHeight="35.0" mnemonicParsing="false" onAction="#showDueTransactions" prefHeight="35.0" prefWidth="180.0" text="Due Today !" />
+                        <Button minHeight="35.0" mnemonicParsing="false" onAction="#showAddAccountOp" prefHeight="35.0" prefWidth="180.0" text="Add New Account" />
+                        <Button minHeight="35.0" mnemonicParsing="false" onAction="#showAccountsOp" prefHeight="30.0" prefWidth="180.0" text="View Accounts" />
+                        <Button minHeight="35.0" mnemonicParsing="false" onAction="#showTransactionTypeOp" prefHeight="35.0" prefWidth="180.0" text="New Transaction Type" />
+                        <Button minHeight="35.0" mnemonicParsing="false" onAction="#showEnterTransactionOp" prefHeight="30.0" prefWidth="180.0" text="Enter Transaction" />
+                        <Button minHeight="35.0" mnemonicParsing="false" onAction="#showTransactionsListOp" prefHeight="30.0" prefWidth="180.0" text="Transactions" />
+                        <Button minHeight="35.0" mnemonicParsing="false" onAction="#showEnterScheduledTransactionOp" prefHeight="30.0" prefWidth="180.0" text="Enter Scheduled Transaction">
+                           <font>
+                              <Font size="11.0" />
+                           </font></Button>
+                        <Button minHeight="35.0" mnemonicParsing="false" onAction="#showScheduledTransactionsOp" prefHeight="30.0" prefWidth="180.0" text="Scheduled Transactions" />
+                        <Button minHeight="35.0" mnemonicParsing="false" onAction="#showSearchTransactionsOp" prefHeight="30.0" prefWidth="180.0" text="Search Transactions" />
+                        <Button minHeight="35.0" mnemonicParsing="false" onAction="#showSearchScheduledTransactionsOp" prefHeight="31.0" prefWidth="160.0" text="Search Scheduled Transactions">
+                           <font>
+                              <Font size="10.5" />
+                           </font></Button>
+                        <Button minHeight="35.0" minWidth="160.0" mnemonicParsing="false" onAction="#showTransactionReport" text="Transaction Report" />
+                     </children>
+                  </VBox>
+               </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="401.0">
+         <children>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

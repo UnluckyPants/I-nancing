@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.AccountsController">
+   <children>
+      <Label layoutX="151.0" layoutY="14.0" text="Accounts">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TableView fx:id="table" layoutX="22.0" layoutY="51.0" prefHeight="311.0" prefWidth="356.0">
+        <columns>
+          <TableColumn fx:id="namesColumn" prefWidth="104.0" text="Name" />
+          <TableColumn fx:id="dateColumn" prefWidth="108.79998779296875" text="Date" />
+            <TableColumn fx:id="balanceColumn" prefWidth="143.20001220703125" text="Balance" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

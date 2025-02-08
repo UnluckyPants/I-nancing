@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.SearchScheduledTransactionsController">
+   <children>
+      <Label layoutX="37.0" layoutY="14.0" text="Search Scheduled Transactions">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="searchBar" layoutX="95.0" layoutY="56.0" promptText="Enter Name" />
+      <Button layoutX="254.0" layoutY="56.0" mnemonicParsing="false" onAction="#searchTransacsOp" text="search" />
+      <TableView fx:id="table" layoutX="11.0" layoutY="95.0" prefHeight="298.0" prefWidth="378.0">
+        <columns>
+          <TableColumn fx:id="nameColumn" prefWidth="117.5999755859375" text="Name" />
+          <TableColumn fx:id="accountColumn" prefWidth="155.199951171875" text="Account" />
+            <TableColumn fx:id="typeColumn" prefWidth="112.79998779296875" text="Type" />
+            <TableColumn fx:id="dueDateColumn" prefWidth="81.60003662109375" text="Due Date" />
+            <TableColumn fx:id="frequencyColumn" prefWidth="109.5999755859375" text="Frequency" />
+            <TableColumn fx:id="paymentColumn" prefWidth="147.199951171875" text="Payment" />
+            <TableColumn fx:id="buttonColumn" prefWidth="62.39990234375" text="Edit" />
+        </columns>
+      </TableView>
+      <Label fx:id="EmptyFieldsError" layoutX="97.0" layoutY="40.0" opacity="0.0" text="Please Enter a Description" textFill="RED" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ScheduledTransactionsListController">
+   <children>
+      <Label alignment="CENTER" layoutX="51.0" layoutY="14.0" prefHeight="35.0" prefWidth="297.0" text="Scheduled Transactions">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TableView fx:id="table" layoutY="51.0" prefHeight="347.0" prefWidth="400.0">
+         <columns>
+            <TableColumn fx:id="namesColumn" prefWidth="91.20001220703125" text="Name" />
+            <TableColumn fx:id="accountColumn" prefWidth="121.5999755859375" text="Account" />
+            <TableColumn fx:id="typeColumn" minWidth="0.0" prefWidth="77.5999755859375" text="Type" />
+            <TableColumn fx:id="dueDateColumn" prefWidth="91.199951171875" text="Due Date" />
+            <TableColumn fx:id="frequencyColumn" prefWidth="98.40008544921875" text="Frequency" />
+            <TableColumn fx:id="paymentColumn" minWidth="0.0" prefWidth="139.20001220703125" text="Payment" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

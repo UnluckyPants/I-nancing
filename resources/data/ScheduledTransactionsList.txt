@@ -1,0 +1,10 @@
+Netflix~Bank Of America~Entertainment~3~Monthly~15.0
+Hulu~Bank Of America~Entertainment~6~Monthly~15.0
+Amazon Prime~Chase~Entertainment~1~Monthly~15.0
+Cleaning Supplies~Bank Of America~Supplies~1~Monthly~50.0
+Cat Food~Wells Fargo~Supplies~28~Monthly~30.0
+Monthly Snack Box~Wells Fargo~Food~9~Monthly~40.0
+Van Gas~Chase~Gas~27~Monthly~70.0
+Playstation Plus~Chase~Entertainment~1~Monthly~18.0
+Book Subscription ~Wells Fargo~Entertainment~19~Monthly~50.0
+Discord Nitro~Bank Of America~Entertainment~29~Monthly~15.0

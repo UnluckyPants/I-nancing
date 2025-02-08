@@ -1,0 +1,10 @@
+Bank Of America~Gas~2024-11-17~Small car gas~-20.0
+Chase~Food~2024-11-17~Dinner with friends~-70.0
+Wells Fargo~Entertainment~2024-11-11~New book~-30.0
+Chase~Entertainment~2024-11-03~New Games~-70.0
+Chase~Gas~2024-11-03~Small car gas~-30.0
+Wells Fargo~Food~2024-10-30~New donut shop~-15.0
+Wells Fargo~Supplies~2024-11-20~School supplies~-50.0
+Bank Of America~Food~2024-11-14~Taco bell~-20.0
+Bank Of America~Food~2024-11-06~Mcdonalds~-10.0
+Chase~Entertainment~2024-11-10~New movie came out~-25.0
